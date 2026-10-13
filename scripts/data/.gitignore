@@ -1,0 +1,4 @@
+# GADM GeoJSON source files — large, not committed to the repo.
+# Download from https://gadm.org/download_country.html
+# Place here before running: just generate-location-sql
+*.json

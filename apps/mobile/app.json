@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Patty",
+    "slug": "Patty",
+    "scheme": "patty",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAFAFA",
+      "dark": {
+        "image": "./assets/splash-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oguzhanozkaya.Patty",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "Allow Patty to access your camera to take photos of your pets.",
+        "NSPhotoLibraryUsageDescription": "Allow Patty to access your photo library to add photos of your pets."
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES"
+      ],
+      "package": "com.oguzhanozkaya.Patty",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Patty to access your location to automatically determine your city."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Patty to access your photo library to add photos of your pets.",
+          "cameraPermission": "Allow Patty to access your camera to take photos of your pets."
+        }
+      ],
+      "./plugins/withE2EBuildType.js",
+      "./plugins/withGradleOptimizations.js"
+    ],
+    "runtimeVersion": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "1c2cf175-64b4-493c-af12-80421a0c7251"
+      }
+    }
+  }
+}

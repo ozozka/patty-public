@@ -1,0 +1,4 @@
+appId: com.oguzhanozkaya.Patty
+---
+- clearState
+- launchApp

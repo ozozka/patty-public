@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 0,
+      "tag": "0000_schema",
+      "breakpoints": false
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 0,
+      "tag": "0001_seed_reference_data",
+      "breakpoints": false
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 0,
+      "tag": "0002_location_districts",
+      "breakpoints": false
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 0,
+      "tag": "0003_location_geometry",
+      "breakpoints": false
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1772621220125,
+      "tag": "0004_wooden_the_spike",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1772832241498,
+      "tag": "0005_useful_monster_badoon",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1772859664772,
+      "tag": "0006_thick_ultragirl",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1773050666283,
+      "tag": "0007_worried_captain_universe",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1773063228052,
+      "tag": "0008_amusing_hellfire_club",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1773082241117,
+      "tag": "0009_plain_crystal",
+      "breakpoints": true
+    }
+  ]
+}

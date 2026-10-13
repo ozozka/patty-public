@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@patty/config/typescript/base.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "types": ["node", "bun-types"],
+    "paths": {
+      "@patty/api/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "drizzle.config.ts"]
+}

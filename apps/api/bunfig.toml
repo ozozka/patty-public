@@ -1,0 +1,4 @@
+[test]
+preload = ["./test-setup.ts"]
+randomize = true
+timeout = 15000

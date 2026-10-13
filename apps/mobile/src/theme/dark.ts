@@ -1,0 +1,43 @@
+/**
+ * Dark theme color palette.
+ */
+
+import type { ThemeColors } from 'src/theme/types';
+
+export const darkColors: ThemeColors = {
+  PRIMARY: '#FB7185',
+  SECONDARY: '#FBBF24',
+  ERROR: '#F87171',
+  SUCCESS: '#34D399',
+  GRAY: '#71717A',
+  TEXT: '#FAFAFA',
+  TEXT_SECONDARY: '#88888F',
+  TEXT_MUTED: '#52525B',
+  TEXT_ON_IMAGE: '#FFFFFF',
+  BACKGROUND: '#000000',
+  COMPONENT: '#17171B',
+  SURFACE: '#0F0F11',
+  SURFACE_ELEVATED: '#212126',
+  SURFACE_SUNKEN: '#000000',
+  BORDER: '#1E1E22',
+  BORDER_LIGHT: '#0F0F12',
+  ON_PRIMARY: '#FFFFFF',
+  OVERLAY: 'rgba(0, 0, 0, 0.85)',
+  GRADIENT_CARD_OVERLAY: ['transparent', 'rgba(0,0,0,0.9)'] as const,
+  GRADIENT_HEADER: ['#FB7185', '#FBBF24'] as const,
+  GENDER_MALE: '#60A5FA',
+  GENDER_FEMALE: '#F472B6',
+  GENDER_OTHER: '#FBBF24',
+  SWIPE_LIKE: '#34D399',
+  SWIPE_PASS: '#F87171',
+  SWIPE_LIKE_SUBTLE: 'rgba(52, 211, 153, 0.13)',
+  SWIPE_PASS_SUBTLE: 'rgba(248, 113, 113, 0.13)',
+  SUPER_LIKE_SUBTLE: 'rgba(251, 191, 36, 0.13)',
+  DIVIDER: 'rgba(255, 255, 255, 0.04)',
+  TRANSPARENT_CARD: 'rgba(15,15,17,0.85)',
+  TRANSPARENT_INPUT: 'rgba(23,23,27,0.8)',
+  TRANSPARENT_TAB_BAR: 'rgba(0,0,0,0.92)',
+  TRANSPARENT_MODAL: 'rgba(33,33,38,0.95)',
+  TRANSPARENT_TOAST: 'rgba(33,33,38,0.95)',
+  TRANSPARENT_IMAGE_VIEWER: 'rgba(0,0,0,0.97)',
+};

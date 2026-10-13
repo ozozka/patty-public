@@ -1,0 +1,507 @@
+{
+  "common": {
+    "download": "İndir",
+    "learnMore": "Daha Fazla",
+    "getStarted": "Başla",
+    "appStore": "App Store",
+    "playStore": "Google Play",
+    "free": "Ücretsiz",
+    "safe": "Güvenli"
+  },
+  "breadcrumb": {
+    "home": "Ana Sayfa"
+  },
+  "nav": {
+    "features": "Özellikler",
+    "about": "Hakkında",
+    "safety": "Güvenlik",
+    "support": "Destek",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Her Evcil Hayvan En İyi Arkadaşını Hak Ediyor",
+    "subtitle": "Yakınındaki evcil hayvan sahipleriyle bağlantı kur. Eşleş, sohbet et ve oyun buluşmaları ayarla. Tüylü dostun teşekkür edecek!",
+    "downloadApp": "Uygulamayı İndir"
+  },
+  "trust": {
+    "users": "Mutlu Evcil Hayvan Sahibi",
+    "rating": "App Store Puanı",
+    "coverage": "İlde Kullanıcı"
+  },
+  "features": {
+    "title": "Evcil hayvanının sosyal yaşam için ihtiyaç duyduğu her şey",
+    "subtitle": "Patty, evcil hayvan sosyalleşmesini kolay, güvenli ve eğlenceli hale getirmek için tasarlandı.",
+    "swipe": {
+      "title": "Swipe ile Eşleş",
+      "description": "Alışkın olduğun kaydırma arayüzüyle yakındaki evcil hayvanları keşfet. Tür, ırk ve mesafeye göre filtrele."
+    },
+    "location": {
+      "title": "Konum Bazlı Keşif",
+      "description": "Mahallendeki evcil hayvanları keşfet. Mesafeni ayarla, Patty sana en yakın dostları göstersin."
+    },
+    "chat": {
+      "title": "Anlık Mesajlaşma",
+      "description": "Eşleştikten sonra, yazma göstergeleri, okundu bilgileri ve çevrimiçi durum ile anında sohbet et."
+    },
+    "verified": {
+      "title": "Doğrulanmış Profiller",
+      "description": "E-posta doğrulaması ve isteğe bağlı telefon doğrulaması, tanışacağın kişiler konusunda güven verir."
+    }
+  },
+  "featuresPage": {
+    "title": "Evcil Hayvan Severler için Güçlü Özellikler",
+    "subtitle": "Patty'nin sen ve tüylü dostların için sunduğu her şeyi keşfet.",
+    "coreFeatures": "Temel Özellikler",
+    "smartMatching": {
+      "title": "Akıllı Eşleşme Algoritması",
+      "description": "Akıllı sistemimiz tercihlerini öğrenir ve uyumlu oyun arkadaşları önerir.",
+      "point1": "Tür, ırk ve yaşa göre filtrele",
+      "point2": "Mesafe bazlı keşif",
+      "point3": "Zamanla tercihlerinden öğrenir"
+    },
+    "proximity": {
+      "title": "Yakınlık Bazlı Keşif",
+      "description": "Tam konumunu paylaşmadan yakınındaki evcil hayvanları bul.",
+      "point1": "Ayarlanabilir mesafe yarıçapı",
+      "point2": "Gizlilik odaklı konum paylaşımı",
+      "point3": "Sadece yaklaşık mesafeyi gör"
+    },
+    "realTime": {
+      "title": "Gerçek Zamanlı İletişim",
+      "description": "Güçlü sohbet sistemimiz aracılığıyla diğer evcil hayvan sahipleriyle anında bağlantı kur.",
+      "point1": "Yazma göstergeleri ve okundu bilgileri",
+      "point2": "Çevrimiçi durum takibi",
+      "point3": "Yeni mesajlar için anlık bildirimler"
+    },
+    "petProfiles": {
+      "title": "Detaylı Evcil Hayvan Profilleri",
+      "description": "Her evcil hayvanın için fotoğraflı ve tercihli güzel profiller oluştur.",
+      "point1": "Her evcil hayvan için birden fazla fotoğraf",
+      "point2": "Irk ve kişilik detayları",
+      "point3": "Aktivite seviyesi ve oyun tarzı"
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışır?",
+    "step1": {
+      "title": "Kaydol",
+      "description": "Profilini oluştur ve evcil hayvanını ekle"
+    },
+    "step2": {
+      "title": "Keşfet",
+      "description": "Yakınındaki evcil hayvanları bul ve eşleş"
+    },
+    "step3": {
+      "title": "Buluş",
+      "description": "Oyun buluşması ayarla ve tanış"
+    }
+  },
+  "pets": {
+    "title": "Köpek ve Kedi Dostlukları",
+    "subtitle": "Patty'de köpek ve kediler için oyun arkadaşlığı!",
+    "dog": "Köpek",
+    "cat": "Kedi",
+    "dogBreeds": "Golden Retriever, Bulldog, Beagle...",
+    "catBreeds": "İran Kedisi, British Shorthair, Siyam...",
+    "moreComing": "Yakında daha fazla tür!"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "q1": "Patty güvenli mi?",
+    "a1": "Kesinlikle! Patty'de tüm hesaplar e-posta ile doğrulanır. İsteğe bağlı telefon doğrulaması da yapabilirsin. Ayrıca profilini istediğin zaman silebilirsin.",
+    "q2": "Patty ücretsiz mi?",
+    "a2": "Evet! Temel özellikler tamamen ücretsiz. Eşleşme, mesajlaşma ve keşif özelliklerini sınırsız kullanabilirsin.",
+    "q3": "Hangi hayvanları ekleyebilirim?",
+    "a3": "Patty'de köpek ve kedi ekleyebilirsin. Her evcil hayvanın kendi profili, fotoğrafları ve detayları olur!",
+    "q4": "Nasıl eşleşirim?",
+    "a4": "Profilini oluşturup evcil hayvanını ekledikten sonra, yakındaki evcil hayvanları keşfetmeye başla. Birbirinizi beğendiğinizde - eşleşme!",
+    "q5": "Birden fazla evcil hayvan ekleyebilir miyim?",
+    "a5": "Evet! İstediğin kadar köpek ve kedi ekleyebilirsin. Her evcil hayvanın fotoğraf, biyografi ve tercihlerle kendi profili olur.",
+    "q6": "Konumum görünür mü?",
+    "a6": "Sadece yaklaşık mesafen gösterilir (örn. '2 km uzaklıkta'). Tam adresin asla paylaşılmaz, ancak sohbette paylaşmayı seçersen hariç.",
+    "stillHaveQuestions": "Hala sorularınız mı var?",
+    "contactUs": "Bize ulaşın"
+  },
+  "cta": {
+    "title": "Evcil hayvanının yeni en iyi arkadaşını bulmaya hazır mısın?",
+    "subtitle": "Binlerce evcil hayvan sahibi sevimli dostlarını bağlamak için Patty'yi kullanıyor.",
+    "socialProof": "Her yerden evcil hayvan severlere katıl"
+  },
+  "footer": {
+    "tagline": "Oyun buluşmaları ve dostluk için evcil hayvan severleri bir araya getiriyoruz.",
+    "product": "Ürün",
+    "features": "Özellikler",
+    "safety": "Güvenlik",
+    "supportLink": "Destek",
+    "company": "Şirket",
+    "about": "Hakkında",
+    "blog": "Blog",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "contact": "İletişim",
+    "copyright": "© {year} Patty. Tüm hakları saklıdır."
+  },
+  "about": {
+    "title": "Patty Hakkında",
+    "subtitle": "Her evcil hayvanın mükemmel oyun arkadaşını bulabileceği bir topluluk oluşturuyoruz.",
+    "mission": {
+      "title": "Misyonumuz",
+      "content": "Patty'de, her evcil hayvanın arkadaşlık, oyun ve dostluk hak ettiğine inanıyoruz. Misyonumuz, evcil hayvan sahiplerini yerel topluluklerinde bir araya getirmek, oyun buluşmaları düzenlemeyi ve hem evcil hayvanlar hem de sahipleri için kalıcı dostluklar kurmayı kolaylaştırmaktır."
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "paragraph1": "Patty basit bir gözlemden doğdu: evcil hayvanlarımız oynayacak arkadaşları olduğunda daha mutlular. Evcil hayvan sahipleri olarak, tüylü dostlarımız için uyumlu oyun arkadaşları bulmakta zorlandık. Köpek parkları öngörülemezdi ve sosyal medya grupları dağınıktı.",
+      "paragraph2": "Evcil hayvan oyun buluşmaları bulmayı sağa kaydırmak kadar kolay hale getirecek bir uygulama hayal ettik. Güven, güvenlik ve gerçek bağlantı üzerine inşa edilmiş bir platform. İşte Patty böyle doğdu.",
+      "paragraph3": "Bugün, Patty her evcil hayvanın en iyi arkadaşını hak ettiği inancını paylaşan evcil hayvan severlerden oluşan canlı bir topluluğa dönüşüyor."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "community": {
+        "title": "Önce Topluluk",
+        "description": "Evcil hayvan severler için, evcil hayvan severlerle birlikte inşa ediyoruz. Her özellik bağlantıları güçlendirmek için tasarlandı."
+      },
+      "safety": {
+        "title": "Güvenlik ve Güven",
+        "description": "Güvenliğin en önemli. Profilleri doğruluyoruz ve güvenli buluşmalar için araçlar sağlıyoruz."
+      },
+      "joy": {
+        "title": "Neşe ve Eğlence",
+        "description": "Evcil hayvanlar bize mutluluk getirir, Patty de öyle olmalı. Deneyimi keyifli ve ilgi çekici tutuyoruz."
+      },
+      "inclusion": {
+        "title": "Kapsayıcılık",
+        "description": "Her evcil hayvan ve sahibi hoş geldiniz. Topluluğumuzun çeşitliliğini kutluyoruz."
+      }
+    }
+  },
+  "safety": {
+    "title": "Güvenliğin Önceliğimizdir",
+    "subtitle": "Patty'nin başkalarıyla bağlantı kurarken seni ve evcil hayvanını nasıl koruduğunu öğren.",
+    "verification": {
+      "title": "Doğrulanmış Profiller",
+      "description": "Her hesap e-posta doğrulaması gerektirir, ek güven için isteğe bağlı telefon doğrulaması ile. Profillerde doğrulanmış rozetini ara."
+    },
+    "location": {
+      "title": "Konum Gizliliği",
+      "description": "Tam konumun asla paylaşılmaz. Diğer kullanıcılar sadece yaklaşık mesafeyi görür (örn. '2 km uzaklıkta')."
+    },
+    "control": {
+      "title": "Tam Kontrol",
+      "description": "Hangi bilgileri paylaşacağına sen karar verirsin. Sohbet içinden istediğin zaman eşleşmeyi iptal et veya kullanıcıyı engelle."
+    },
+    "reporting": {
+      "title": "Kolay Bildirim",
+      "description": "Uygunsuz davranışı tek dokunuşla bildir. Ekibimiz tüm bildirimleri 24 saat içinde inceler."
+    },
+    "moderation": {
+      "title": "Aktif Denetim",
+      "description": "Ekibimiz şüpheli aktiviteleri aktif olarak izler ve ihlallere karşı hızlı önlem alır."
+    },
+    "guidelines": {
+      "title": "Topluluk Kuralları",
+      "description": "Açık kurallar herkes için olumlu bir deneyim sağlar. İhlaller hesap askıya alma ile sonuçlanır."
+    },
+    "tips": {
+      "title": "Oyun Buluşmaları için Güvenlik İpuçları",
+      "point1": "İlk oyun buluşmaları için her zaman parklar veya evcil hayvan dostu alanlar gibi halka açık yerlerde buluş.",
+      "point2": "Gideceğin yeri ve kime buluşacağını bir arkadaşına veya aile üyesine bildir.",
+      "point3": "İçgüdülerine güven. Bir şey ters hissediyorsa, iptal etmek veya ayrılmak tamamdır.",
+      "point4": "İlk buluşmayı kısa tut ve evcil hayvanların nasıl etkileşim kurduğunu gözlemle.",
+      "point5": "Kişisel olarak buluşmadan önce iletişim bilgilerini değiş tokuş et ve detayları doğrula."
+    },
+    "commitment": "Güvenlik endişelerin mi var? Ekibimize ulaş:"
+  },
+  "support": {
+    "title": "Destek Merkezi",
+    "subtitle": "Yardım etmek için buradayız. Cevapları bul veya ekibimizle iletişime geç.",
+    "quickLinks": {
+      "faq": {
+        "title": "SSS",
+        "description": "Sık sorulan sorulara hızlı cevaplar bul."
+      },
+      "chat": {
+        "title": "Bize E-posta Gönder",
+        "description": "Bize istediğin zaman mesaj gönder."
+      },
+      "email": {
+        "title": "Doğrudan Destek",
+        "description": "support@patty.app"
+      }
+    },
+    "contact": {
+      "title": "Bize Mesaj Gönder"
+    },
+    "response": {
+      "title": "Ne Beklemeli",
+      "content": "Destek ekibimiz mümkün olduğunca hızlı bir şekilde yardımcı olmaya kararlıdır.",
+      "point1": "Yanıt süresi: İş günlerinde 24 saat içinde",
+      "point2": "Güvenlikle ilgili sorunlar için öncelikli destek",
+      "point3": "Karmaşık vakalar için takip güncellemeleri"
+    },
+    "tips": {
+      "title": "Daha Hızlı Destek İçin",
+      "point1": "Hesap e-posta adresini dahil et",
+      "point2": "Sorunu detaylı açıkla",
+      "point3": "İlgili ise ekran görüntüleri ekle"
+    },
+    "form": {
+      "name": "Adınız",
+      "namePlaceholder": "Ahmet Yılmaz",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "ahmet@ornek.com",
+      "issueType": "Sorun Türü",
+      "issueTypes": {
+        "account": "Hesap Sorunları",
+        "matching": "Eşleşme ve Keşif",
+        "chat": "Sohbet ve Mesajlaşma",
+        "safety": "Güvenlik Endişesi",
+        "technical": "Teknik Sorun",
+        "other": "Diğer"
+      },
+      "message": "Mesaj",
+      "messagePlaceholder": "Sorunuzu veya sorununuzu açıklayın...",
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "successTitle": "Mesaj Gönderildi!",
+      "successMessage": "Mesajınızı aldık ve 24 saat içinde size dönüş yapacağız."
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "intro": {
+      "title": "Giriş",
+      "content": "Patty'de gizliliğinizi ciddiye alıyoruz. Bu Gizlilik Politikası, uygulamamızı kullandığınızda kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar."
+    },
+    "dataCollection": {
+      "title": "Topladığımız Veriler",
+      "intro": "Doğrudan sağladığınız bilgileri ve deneyiminizi geliştirmemize yardımcı olan verileri toplarız:",
+      "account": {
+        "title": "Hesap Bilgileri",
+        "content": "Ad, e-posta adresi, telefon numarası (isteğe bağlı) ve paylaşmayı seçtiğiniz profil detayları."
+      },
+      "pet": {
+        "title": "Evcil Hayvan Profilleri",
+        "content": "Evcil hayvanlarınızın fotoğrafları, isimleri, türleri, ırkları, yaşları ve açıklamaları."
+      },
+      "location": {
+        "title": "Konum Verisi",
+        "content": "Yakındaki evcil hayvanları ve kullanıcıları göstermek için yaklaşık konum. Tam konum asla saklanmaz veya paylaşılmaz."
+      },
+      "usage": {
+        "title": "Kullanım Verisi",
+        "content": "Uygulamayla nasıl etkileşim kurduğunuz, eşleşmeler, mesajlar ve özellik kullanımı dahil."
+      }
+    },
+    "locationData": {
+      "title": "Konum Verisi",
+      "content": "Gizliliğiniz bizim için önemlidir. Konum bilgilerini şu şekilde ele alıyoruz:",
+      "point1": "Sadece yaklaşık konum topluyoruz (ilçe/il seviyesi)",
+      "point2": "Tam adresiniz diğer kullanıcılara asla görünmez",
+      "point3": "Başkalarına gösterilen mesafe yaklaşık değerdir (örn. '2 km uzaklıkta')",
+      "point4": "Cihaz ayarlarınızdan konum servislerini devre dışı bırakabilirsiniz"
+    },
+    "dataUse": {
+      "title": "Verilerinizi Nasıl Kullanıyoruz",
+      "intro": "Topladığımız bilgileri şu amaçlarla kullanıyoruz:",
+      "point1": "Eşleşme ve keşif özelliklerimizi sağlamak ve geliştirmek",
+      "point2": "Gerçek zamanlı sohbet ve bildirimleri etkinleştirmek",
+      "point3": "Platform güvenliğini sağlamak ve kötüye kullanımı önlemek",
+      "point4": "Hesabınız hakkında sizinle iletişim kurmak"
+    },
+    "dataSharing": {
+      "title": "Veri Paylaşımı",
+      "content": "Kişisel bilgilerinizi satmıyoruz. Verileri şu taraflarla paylaşabiliriz:",
+      "point1": "Uygulamamızı işletmemize yardımcı olan hizmet sağlayıcılar",
+      "point2": "Yasal olarak gerektiğinde yasal makamlar",
+      "point3": "Diğer kullanıcılar (sadece profilinizde paylaşmayı seçtiğiniz bilgiler)"
+    },
+    "dataRetention": {
+      "title": "Veri Saklama",
+      "content": "Hesabınız aktif olduğu sürece bilgilerinizi saklarız. Uygulama üzerinden veya bize iletişim kurarak istediğiniz zaman hesabınızın ve verilerinizin silinmesini talep edebilirsiniz."
+    },
+    "yourRights": {
+      "title": "Haklarınız",
+      "intro": "Konumunuza bağlı olarak aşağıdaki haklara sahip olabilirsiniz:",
+      "point1": "Kişisel verilerinize erişim",
+      "point2": "Yanlış verilerin düzeltilmesi",
+      "point3": "Verilerinizin silinmesi",
+      "point4": "İşlenmeye itiraz",
+      "point5": "Veri taşınabilirliği"
+    },
+    "security": {
+      "title": "Güvenlik",
+      "content": "Verilerinizi korumak için endüstri standardı güvenlik önlemleri uyguluyoruz; şifreleme, güvenli sunucular ve düzenli güvenlik denetimleri dahil."
+    },
+    "children": {
+      "title": "Çocukların Gizliliği",
+      "content": "Patty 18 yaşın altındaki kullanıcılar için tasarlanmamıştır. Çocuklardan bilerek bilgi toplamıyoruz."
+    },
+    "changes": {
+      "title": "Bu Politikadaki Değişiklikler",
+      "content": "Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikleri uygulama üzerinden veya e-posta ile bildireceğiz."
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "content": "Bu Gizlilik Politikası hakkında sorularınız varsa, lütfen privacy@patty.app adresinden bize ulaşın."
+    }
+  },
+  "terms": {
+    "title": "Kullanım Koşulları",
+    "intro": {
+      "title": "Giriş",
+      "content": "Patty'ye hoş geldiniz. Uygulamamızı kullanarak bu Kullanım Koşullarını kabul etmiş olursunuz. Lütfen dikkatlice okuyun."
+    },
+    "acceptance": {
+      "title": "Koşulların Kabulü",
+      "content": "Hesap oluşturarak ve Patty'yi kullanarak, bu Kullanım Koşullarına ve Gizlilik Politikamıza bağlı kalmayı kabul etmiş olursunuz."
+    },
+    "account": {
+      "title": "Hesap Sorumlulukları",
+      "content": "Şunlardan sorumlusunuz:",
+      "point1": "Doğru ve dürüst bilgi sağlamak",
+      "point2": "Şifrenizi güvende tutmak",
+      "point3": "Hesabınız altında gerçekleşen tüm etkinlikler",
+      "point4": "Yetkisiz kullanımı bize bildirmek"
+    },
+    "conduct": {
+      "title": "Kullanıcı Davranışı",
+      "intro": "Şunları yapmamayı kabul edersiniz:",
+      "point1": "Diğer kullanıcıları taciz etmek, kötüye kullanmak veya zarar vermek",
+      "point2": "Uygunsuz veya saldırgan içerik paylaşmak",
+      "point3": "Başkalarının kimliğine bürünmek veya sahte profil oluşturmak",
+      "point4": "Uygulamayı yasadışı amaçlarla kullanmak",
+      "point5": "Güvenlik önlemlerini aşmaya çalışmak",
+      "point6": "Spam göndermek veya istenmeyen mesajlar"
+    },
+    "content": {
+      "title": "İçerik Kuralları",
+      "ownership": "Patty'de paylaştığınız içeriğin sahibi sizsiniz. Paylaşarak, içeriğinizi uygulama içinde görüntüleme ve dağıtma lisansı bize vermiş olursunuz.",
+      "license": "Paylaştığınız içeriği paylaşma hakkına sahip olduğunuzu ve bunun hiçbir yasa veya üçüncü taraf haklarını ihlal etmediğini temsil edersiniz."
+    },
+    "intellectual": {
+      "title": "Fikri Mülkiyet",
+      "content": "Patty ve özgün içeriği, özellikleri ve işlevselliği bize aittir ve uluslararası telif hakkı, ticari marka ve diğer yasalarla korunmaktadır."
+    },
+    "safety": {
+      "title": "Güvenlik",
+      "content": "Güvenliğiniz bizim için önemli. Diğer kullanıcılarla buluşurken:",
+      "point1": "Her zaman halka açık yerlerde buluşun",
+      "point2": "Planlarınız hakkında güvendiğiniz birine bilgi verin",
+      "point3": "Endişe verici davranışı derhal bize bildirin"
+    },
+    "liability": {
+      "title": "Sorumluluk Sınırlaması",
+      "content": "Patty, kullanıcılar arasındaki etkileşimlerden veya kullanıcı buluşmalarından veya etkileşimlerinden kaynaklanan herhangi bir yaralanma, kayıp veya hasardan sorumlu değildir."
+    },
+    "termination": {
+      "title": "Fesih",
+      "content": "Bu Koşulların ihlali veya kendi takdirimize bağlı herhangi bir nedenle hesabınızı istediğimiz zaman askıya alabilir veya sonlandırabiliriz."
+    },
+    "changes": {
+      "title": "Koşullardaki Değişiklikler",
+      "content": "Bu Koşulları istediğimiz zaman değiştirme hakkını saklı tutarız. Değişikliklerden sonra uygulamayı kullanmaya devam etmek, yeni Koşulların kabulü anlamına gelir."
+    },
+    "governing": {
+      "title": "Uygulanacak Hukuk",
+      "content": "Bu Koşullar, çelişen hükümler hukuku hükümleri dikkate alınmaksızın Türkiye Cumhuriyeti yasalarına göre yorumlanacak ve yönetilecektir."
+    },
+    "contact": {
+      "title": "İletişim",
+      "content": "Bu Koşullar hakkında sorularınız için, lütfen legal@patty.app adresinden bize ulaşın."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Patty ekibinden evcil hayvan ipuçları, hikayeler ve güncellemeler.",
+    "notFound": "Yazı bulunamadı",
+    "backToBlog": "Blog'a Dön",
+    "categories": {
+      "all": "Tümü",
+      "tips": "İpuçları",
+      "updates": "Güncellemeler",
+      "news": "Haberler"
+    },
+    "posts": {
+      "safe-pet-playdates": {
+        "title": "İlk Evcil Hayvan Oyun Buluşması için 5 İpucu",
+        "excerpt": "Başka bir evcil hayvan sahibiyle ilk kez mi buluşuyorsunuz? Herkes için güvenli ve eğlenceli bir deneyim için yapmanız gerekenler burada.",
+        "date": "10 Ocak 2025",
+        "category": "İpuçları",
+        "content": {
+          "intro": "Patty aracılığıyla başka bir evcil hayvan sahibiyle tanışmak heyecan verici! İşte güvenli ve keyifli bir ilk oyun buluşması için en iyi ipuçlarımız.",
+          "tip1Title": "1. Tarafsız bir yer seçin",
+          "tip1Content": "Birinin evi yerine halka açık bir parkta veya köpek parkında buluşun. Bu, her iki evcil hayvanın da daha rahat hissetmesini sağlar ve bölgesel davranışı azaltır.",
+          "tip2Title": "2. İlk buluşmayı kısa tutun",
+          "tip2Content": "İlk buluşma için 20-30 dakikalık bir oyun süresi mükemmeldir. Bu, evcil hayvanların nasıl etkileşim kurduğunu görme fırsatı verir, onları bunaltmaz.",
+          "tip3Title": "3. Su ve kap getirin",
+          "tip3Content": "Oynamak susuzluk açan bir iştir! Su bulundurmak her iki evcil hayvanı da hidrate ve mutlu tutar.",
+          "tip4Title": "4. Vücut dilini izleyin",
+          "tip4Content": "Evcil hayvanınızın sinyallerini okumayı öğrenin. Gevşek, kıvranan vücutlar eğlendikleri anlamına gelir. Sert duruşlar veya bacak arasına sıkıştırılmış kuyruklar stres göstergesi olabilir.",
+          "tip5Title": "5. İletişim bilgilerinizi paylaşın",
+          "tip5Content": "Başarılı bir oyun buluşmasından sonra, iletişim halinde kalın! Düzenli buluşmalar için mükemmel bir eşleşme bulmuş olabilirsiniz.",
+          "outro": "İyi eğlenceler ve güvende kalın!"
+        }
+      },
+      "matching-algorithm": {
+        "title": "Patty'nin Eşleşme Algoritması Nasıl Çalışır",
+        "excerpt": "Tüylü dostunuz için mükemmel oyun arkadaşını bulmanın arkasındaki teknolojiyi keşfedin.",
+        "date": "5 Ocak 2025",
+        "category": "Güncellemeler",
+        "content": {
+          "intro": "Patty'de, evcil hayvanınız için doğru oyun arkadaşını bulmanın hem eğlenceli hem de etkili olması gerektiğine inanıyoruz. İşte eşleşme sistemimizin perde arkasına bir bakış.",
+          "section1Title": "Konum Bazlı Keşif",
+          "section1Content": "Tercih ettiğiniz mesafe içindeki evcil hayvanları göstermek için yaklaşık konumunuzu kullanırız. Bu, oyun buluşmalarının her iki taraf için de uygun olmasını sağlar.",
+          "section2Title": "Tür ve Irk Eşleşmesi",
+          "section2Content": "Algoritmamız evcil hayvan türlerini (köpeklerle köpekler, kedilerle kediler) dikkate alır ve belirlediğiniz ırk tercihlerine göre filtreleyebilir.",
+          "section3Title": "Karşılıklı İlgi",
+          "section3Content": "Her iyi eşleştirmede olduğu gibi, her iki tarafın da ilgilenmesi gerekir. Kaydırma sistemimiz, sahipleri bağlamadan önce karşılıklı rıza sağlar.",
+          "section4Title": "Aktivite Seviyesi Uyumluluğu",
+          "section4Content": "Uyumlu oyun arkadaşları önermek için enerji seviyelerini ve oyun tarzlarını dikkate alırız.",
+          "section5Title": "Sürekli Öğrenme",
+          "section5Content": "Patty'yi ne kadar çok kullanırsanız, tercihlerinizi öğrendikçe önerilerimiz o kadar iyi hale gelir."
+        }
+      },
+      "introducing-patty": {
+        "title": "Patty'yi Tanıyalım: Evcil Hayvan Severleri Bağlamanın Yeni Yolu",
+        "excerpt": "Evcil hayvan sahiplerini oyun buluşmaları ve dostluk için bir araya getiren Patty uygulamasını başlattığımız için heyecanlıyız.",
+        "date": "20 Aralık 2024",
+        "category": "Haberler",
+        "content": {
+          "intro": "Patty'yi, evcil hayvan sahiplerini oyun buluşmaları, dostluk ve topluluk için bir araya getirmek üzere tasarlanmış uygulama olarak duyurmaktan heyecan duyuyoruz.",
+          "section1Title": "Çözdüğümüz Sorun",
+          "section1Content": "Evcil hayvan sahipleri olarak, tüylü dostlarımız için oyun arkadaşı bulmanın ne kadar zor olabileceğini biliyoruz. Yerel köpek parkları bazen tutarlı olmayabilir ve sosyal medya aracılığıyla buluşma düzenlemek zahmetlidir.",
+          "section2Title": "Çözümümüz",
+          "section2Content": "Patty, evcil hayvan sosyalleşmesine alışkın olduğumuz kaydırma arayüzünü getiriyor. Sizin ve evcil hayvanınız için bir profil oluşturun, yakındaki evcil hayvan sahiplerini keşfedin ve hayvan sevgisini paylaşanlarla bağlantı kurun.",
+          "section3Title": "Patty'yi Farklı Yapan Şey",
+          "section3Content": "Yerleşik doğrulama sistemi, gerçek zamanlı sohbet, konum bazlı keşif ve güvenlik ile topluluk kurallarına odaklanma.",
+          "section4Title": "Topluluğumuza Katılın",
+          "section4Content": "Patty'yi bugün indirin ve evcil hayvanlarınız için oyun arkadaşları bulmaya başlayın. Her evcil hayvan en iyi bir arkadaşını hak eder!"
+        }
+      },
+      "pet-socialization-benefits": {
+        "title": "Evcil Hayvanınız için Sosyalleşme Neden Önemli",
+        "excerpt": "Diğer hayvanlarla düzenli etkileşim, evcil hayvanınızın davranışını, sağlığını ve mutluluğunu iyileştirebilir.",
+        "date": "15 Aralık 2024",
+        "category": "İpuçları",
+        "content": {
+          "intro": "Tıpkı insanlar gibi, evcil hayvanlar da düzenli sosyal etkileşimden büyük ölçüde fayda sağlar. İşte her evcil hayvan sahibi için sosyalleşmenin neden öncelik olması gerektiği.",
+          "section1Title": "Davranışsal Faydalar",
+          "section1Content": "İyi sosyalleşmiş evcil hayvanlar genellikle daha sakin, daha az endişeli ve çeşitli durumlarda daha iyi davranışlı olurlar. Sosyal ipuçlarını okumayı ve uygun şekilde yanıt vermeyi öğrenirler.",
+          "section2Title": "Fiziksel Sağlık",
+          "section2Content": "Diğer evcil hayvanlarla aktif oyun, mükemmel egzersiz sağlar, sağlıklı bir kilo korumaya yardımcı olur ve kardiyovasküler sağlığı iyileştirir.",
+          "section3Title": "Zihinsel Uyarım",
+          "section3Content": "Yeni hayvanlar ve ortamlarla etkileşim, evcil hayvanınızın zihnini keskin tutar ve sıkıntıya bağlı davranış sorunlarını önler.",
+          "section4Title": "Özgüven Oluşturma",
+          "section4Content": "Düzenli olumlu etkileşimler, utangaç veya endişeli evcil hayvanların özgüven oluşturmasına ve yeni durumlarda daha rahat hissetmesine yardımcı olur.",
+          "section5Title": "Patty ile Başlayın",
+          "section5Content": "Uyumlu oyun arkadaşları bulmak ve düzenli oyun buluşmaları planlamak için Patty'yi kullanın. Evcil hayvanınız size teşekkür edecek!"
+        }
+      }
+    }
+  },
+  "legal": {
+    "lastUpdated": "Son güncelleme: {date}"
+  }
+}

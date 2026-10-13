@@ -1,0 +1,122 @@
+set shell := ["bash", "-euo", "pipefail", "-c"]
+set positional-arguments
+
+# Set local backend env: writes EXPO_PUBLIC_BASE_URL (LAN IP) to .env.local
+[group('dev')]
+[default]
+local:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    LAN_IP=$(ip -4 addr show | grep -oP 'inet \K(192\.168\.[0-9.]+|10\.[0-9.]+)' | head -1 || hostname -I | awk '{print $1}')
+    echo "EXPO_PUBLIC_BASE_URL=http://${LAN_IP}:8080/api/v1/" > .env.local
+    echo "→ Backend: local (http://${LAN_IP}:8080)"
+
+# Set production backend env: writes EXPO_PUBLIC_BASE_URL (Railway) to .env.local
+[group('dev')]
+prod:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo "EXPO_PUBLIC_BASE_URL=https://patty-api-production.up.railway.app/api/v1/" > .env.local
+    echo "→ Backend: production (https://patty-api-production.up.railway.app)"
+
+# Start Expo dev server (raw, no env preset)
+[group('dev')]
+expo *args:
+    bun start -- --clear "$@"
+
+# Run fix + gate
+[group('quality')]
+full: fix gate
+
+# Apply auto-fixes (prettier + eslint)
+[group('quality')]
+fix:
+    bunx turbo run fix --filter @patty/mobile
+
+# Run lint + typecheck + tests
+[group('quality')]
+gate:
+    bunx turbo run lint typecheck test --filter @patty/mobile
+
+# Run Jest test suite (pass extra args after --)
+[group('quality')]
+test *args:
+    bun run test -- "$@"
+
+# Run expo-doctor health check
+[group('quality')]
+doctor:
+    bun run doctor
+
+# Set E2E environment: writes Android emulator loopback URL to .env.local
+[group('e2e')]
+e2e-env:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo "EXPO_PUBLIC_BASE_URL=http://10.0.2.2:8080/api/v1/" > .env.local
+    echo "→ Backend: e2e emulator loopback (http://10.0.2.2:8080)"
+
+# Incremental E2E build (~30-60s, uses Gradle cache)
+[group('e2e')]
+e2e-fast: e2e-env
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo "Building E2E APK (incremental with cache)..."
+    npx expo run:android --variant e2e --no-bundler
+    echo "Launching app..."
+    adb shell monkey -p com.oguzhanozkaya.Patty -c android.intent.category.LAUNCHER 1
+
+# Full clean E2E build (~2-3 min, guarantees clean slate; runs expo prebuild first)
+[group('e2e')]
+e2e-full: e2e-env
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo "Running expo prebuild (CNG)..."
+    bunx expo prebuild --platform android --clean
+    echo "Full clean E2E build..."
+    echo "Cleaning Gradle build..."
+    (cd android && ./gradlew clean -x externalNativeBuildCleanE2e -x externalNativeBuildCleanDebug -x externalNativeBuildCleanRelease --no-configuration-cache && rm -rf app/.cxx app/build build)
+    echo "Uninstalling existing app..."
+    adb uninstall com.oguzhanozkaya.Patty || true
+    echo "Building fresh E2E APK..."
+    npx expo run:android --variant e2e --no-bundler
+    echo "Launching app..."
+    adb shell monkey -p com.oguzhanozkaya.Patty -c android.intent.category.LAUNCHER 1
+
+# Run Maestro E2E tests only (assumes APK is already installed and emulator running)
+[group('e2e')]
+test-e2e:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    export PATH="$PATH:$HOME/.maestro/bin"
+    : "${MAESTRO_SECRET:?Set MAESTRO_SECRET to match the local E2E API configuration}"
+
+    # Auto-detect Android Studio Java if missing
+    if ! command -v java &> /dev/null; then
+        if [ -d "/opt/android-studio/jbr/bin" ]; then
+            export PATH="/opt/android-studio/jbr/bin:$PATH"
+        elif [ -d "$HOME/android-studio/jbr/bin" ]; then
+            export PATH="$HOME/android-studio/jbr/bin:$PATH"
+        fi
+    fi
+
+    if ! command -v maestro &> /dev/null; then
+        echo "Error: Maestro CLI not found. Install it with: curl -Ls 'https://get.maestro.mobile.dev' | bash"
+        exit 1
+    fi
+
+    maestro test -e "MAESTRO_SECRET=$MAESTRO_SECRET" e2e/flows/
+
+# Fast E2E build + run tests (default interactive workflow)
+[group('e2e')]
+e2e: e2e-fast test-e2e
+
+# EAS Android build (preview profile)
+[group('eas')]
+build-android:
+    eas build --profile preview --platform android
+
+# Publish an OTA update via EAS Update
+[group('eas')]
+ota-update msg="Manual update from justfile":
+    bunx eas-cli update --message "{{msg}}"

@@ -1,0 +1,29 @@
+{
+  "name": "patty",
+  "private": true,
+  "packageManager": "bun@1.3.10",
+  "engines": {
+    "bun": "1.3.10"
+  },
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck",
+    "db:generate": "bun --filter @patty/api drizzle-kit generate",
+    "db:migrate": "bun --filter @patty/api drizzle-kit migrate",
+    "db:push": "bun --filter @patty/api drizzle-kit push",
+    "db:studio": "bun --filter @patty/api drizzle-kit studio"
+  },
+  "devDependencies": {
+    "mobile": "^0.0.1",
+    "react-native-edge-to-edge": "^1.8.1",
+    "react-native-nitro-modules": "^0.35.1",
+    "turbo": "^2.8.17"
+  },
+  "dependencies": {
+    "react-native-unistyles": "3.1.1"
+  }
+}

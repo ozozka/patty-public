@@ -1,0 +1,21 @@
+set shell := ["bash", "-euo", "pipefail", "-c"]
+
+# Start Next.js dev server (port 3000)
+[group('dev')]
+[default]
+dev:
+    bun run dev
+
+# Run fix + gate
+[group('quality')]
+full: fix gate
+
+# Apply auto-fixes (prettier + eslint)
+[group('quality')]
+fix:
+    bunx turbo run fix --filter @patty/web
+
+# Run lint + typecheck
+[group('quality')]
+gate:
+    bunx turbo run lint typecheck --filter @patty/web

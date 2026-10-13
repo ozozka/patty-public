@@ -1,0 +1,47 @@
+set shell := ["bash", "-euo", "pipefail", "-c"]
+set positional-arguments
+
+# Start API dev server with hot reload (port 8080)
+[group('dev')]
+[default]
+dev:
+    bun --watch src/index.ts
+
+# Run fix + gate
+[group('quality')]
+full: fix gate
+
+# Apply auto-fixes (prettier + eslint)
+[group('quality')]
+fix:
+    bunx turbo run fix --filter @patty/api
+
+# Run lint + typecheck + tests
+[group('quality')]
+gate:
+    bunx turbo run lint typecheck test --filter @patty/api
+
+# Run bun test suite (pass extra args after --)
+[group('quality')]
+test *args:
+    bun run test -- "$@"
+
+# Generate new migration from schema changes
+[group('database')]
+db-generate:
+    bunx drizzle-kit generate
+
+# Apply pending migrations
+[group('database')]
+db-migrate:
+    bunx drizzle-kit migrate
+
+# Open Drizzle Studio (local DB UI)
+[group('database')]
+db-studio:
+    bunx drizzle-kit studio
+
+# Push schema directly without migration (dev only)
+[group('database')]
+db-push:
+    bunx drizzle-kit push

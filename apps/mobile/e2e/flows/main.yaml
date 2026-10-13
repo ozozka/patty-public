@@ -1,0 +1,302 @@
+appId: com.oguzhanozkaya.Patty
+---
+# ============================================
+# FULL E2E FLOW
+# Tests: Register → Logout → Login → Profile → Pet → Discovery → Chat
+# ============================================
+
+# --- RESET & LAUNCH ---
+- runScript: ../scripts/reset-account.js
+- launchApp:
+    clearState: true
+
+# ============================================
+# --- REGISTRATION ---
+# ============================================
+- tapOn:
+    id: 'login.register-button'
+
+# Step 1: Name
+- tapOn:
+    id: 'register.first-name-input'
+- inputText: 'Maestro'
+- tapOn:
+    id: 'register.last-name-input'
+- inputText: 'Tester'
+- hideKeyboard
+- tapOn:
+    id: 'step-wizard-next-button'
+
+# Step 2: Credentials
+- tapOn:
+    id: 'register.username-input'
+- inputText: 'maestro_e2e'
+- tapOn:
+    id: 'register.email-input'
+- inputText: 'test-register@patty.app'
+- tapOn:
+    id: 'register.password-input'
+- inputText: 'TestPass123'
+- hideKeyboard
+- tapOn:
+    id: 'step-wizard-next-button'
+
+# Step 3: Location
+- tapOn:
+    id: 'province-dropdown'
+- extendedWaitUntil:
+    visible:
+      id: 'province-dropdown-search-input'
+    timeout: 5000
+- tapOn:
+    id: 'province-dropdown-search-input'
+- inputText: 'anka'
+- hideKeyboard
+- tapOn: 'Ankara'
+
+- tapOn:
+    id: 'district-dropdown'
+- extendedWaitUntil:
+    visible:
+      id: 'district-dropdown-search-input'
+    timeout: 5000
+- tapOn:
+    id: 'district-dropdown-search-input'
+- inputText: 'mama'
+- hideKeyboard
+- tapOn: 'Mamak'
+
+- tapOn:
+    id: 'step-wizard-next-button'
+
+# Step 4: Profile (Enter phone number)
+- tapOn:
+    id: 'register.phone-input'
+- inputText: '5554443322'
+- hideKeyboard
+- tapOn:
+    id: 'step-wizard-next-button'
+
+# OTP Verification
+- extendedWaitUntil:
+    visible:
+      id: 'email-verification.title'
+    timeout: 10000
+- tapOn:
+    id: 'otp-input-field-0'
+- inputText: '123456'
+
+# Wait for redirect to main app
+- extendedWaitUntil:
+    visible:
+      id: 'screen.discovery'
+    timeout: 15000
+
+# ============================================
+# --- LOGOUT ---
+# ============================================
+- tapOn:
+    id: 'tab-bar-item-Profile'
+- tapOn:
+    id: 'profile-settings-button'
+- tapOn:
+    id: 'settings.logout'
+- tapOn:
+    id: 'alert-dialog-button-1'
+
+# ============================================
+# --- LOGIN ---
+# ============================================
+- tapOn:
+    id: 'login.identifier-input'
+- inputText: 'maestro_e2e'
+- tapOn:
+    id: 'login.password-input'
+- inputText: 'TestPass123'
+- hideKeyboard
+- tapOn:
+    id: 'login-submit-button'
+- extendedWaitUntil:
+    visible:
+      id: 'screen.discovery'
+    timeout: 10000
+
+# ============================================
+# --- PROFILE SETTINGS ---
+# ============================================
+- tapOn:
+    id: 'tab-bar-item-Profile'
+- tapOn:
+    id: 'profile-settings-button'
+
+# Theme Toggle
+- tapOn:
+    id: 'settings.theme-dark'
+- tapOn:
+    id: 'settings.theme-light'
+
+# Language Change
+- tapOn:
+    id: 'settings.language'
+- tapOn: 'English'
+- extendedWaitUntil:
+    visible: 'Settings'
+    timeout: 5000
+- tapOn: 'Language'
+- tapOn: 'Türkçe'
+- extendedWaitUntil:
+    visible: 'Ayarlar'
+    timeout: 5000
+- tapOn:
+    id: 'header-back-button'
+
+# ============================================
+# --- PET CREATION ---
+# ============================================
+- tapOn:
+    id: 'tab-bar-item-Pets'
+- tapOn:
+    id: 'pets-tab-empty-add-button'
+
+# Step 0: Species & Breed
+- tapOn:
+    id: 'species-selector'
+- extendedWaitUntil:
+    visible:
+      id: 'species-selector-search-input'
+    timeout: 5000
+- tapOn:
+    id: 'species-selector-search-input'
+- inputText: 'Dog'
+- hideKeyboard
+- tapOn: 'Dog'
+
+- tapOn:
+    id: 'breed-selector'
+- extendedWaitUntil:
+    visible:
+      id: 'breed-selector-search-input'
+    timeout: 5000
+- tapOn:
+    id: 'breed-selector-search-input'
+- inputText: 'Golden'
+- hideKeyboard
+- tapOn: 'Golden Retriever'
+
+- tapOn:
+    id: 'step-wizard-next-button'
+
+# Step 1: Details — name, gender (required), birth date (required)
+- tapOn:
+    id: 'pet-form.name-input'
+- inputText: 'Maestro Pet'
+- hideKeyboard
+- tapOn:
+    id: 'gender-selector-male'
+
+- tapOn:
+    id: 'pet-details-birth-date'
+- extendedWaitUntil:
+    visible:
+      id: 'pet-details-date-picker-confirm'
+    timeout: 5000
+- tapOn:
+    id: 'pet-details-date-picker-confirm'
+
+- tapOn:
+    id: 'step-wizard-next-button'
+
+# Step 2: Photos — add 2 photos via camera (minPhotos=2)
+# Photo 1
+- tapOn:
+    id: 'pet-add-photo'
+- tapOn:
+    id: 'pet-photo-sheet-take-photo'
+- extendedWaitUntil:
+    visible:
+      id: 'pet-crop-modal-confirm'
+    timeout: 15000
+- tapOn:
+    id: 'pet-crop-modal-confirm'
+
+# Photo 2
+- tapOn:
+    id: 'pet-add-photo'
+- tapOn:
+    id: 'pet-photo-sheet-take-photo'
+- extendedWaitUntil:
+    visible:
+      id: 'pet-crop-modal-confirm'
+    timeout: 15000
+- tapOn:
+    id: 'pet-crop-modal-confirm'
+
+- tapOn:
+    id: 'step-wizard-next-button'
+
+# Step 3: Personality (bio + energy level optional; canProceed=true always)
+- tapOn:
+    id: 'step-wizard-next-button'
+
+# Step 4: Discovery preferences (defaults already set; canProceed=true)
+- tapOn:
+    id: 'step-wizard-next-button'
+
+- extendedWaitUntil:
+    visible: 'Maestro Pet'
+    timeout: 10000
+
+# ============================================
+# --- DISCOVERY SWIPES ---
+# ============================================
+- tapOn:
+    id: 'tab-bar-item-Discovery'
+- extendedWaitUntil:
+    visible:
+      id: 'discovery-stack'
+    timeout: 10000
+
+# Swipe Left (pass)
+- swipe:
+    direction: LEFT
+    id: 'discovery-stack'
+
+# Swipe Right (like)
+- tapOn:
+    id: 'discovery-like-button'
+
+# Handle potential match modal
+- runFlow:
+    when:
+      visible:
+        id: 'match-modal-send-message-button'
+    commands:
+      - tapOn:
+          id: 'match-modal-keep-swiping-button'
+
+# ============================================
+# --- CHAT ---
+# ============================================
+# Pre-seed a match so chat list always has a conversation
+- runScript: ../scripts/setup-chat.js
+
+- tapOn:
+    id: 'tab-bar-item-Chat'
+- extendedWaitUntil:
+    visible:
+      id: 'screen.chat-list'
+    timeout: 10000
+- extendedWaitUntil:
+    visible:
+      id: 'chat-list-item'
+    timeout: 10000
+- tapOn:
+    id: 'chat-list-item'
+- tapOn:
+    id: 'chat-input-text'
+- inputText: 'Hello from Maestro!'
+- tapOn:
+    id: 'chat-input-send-button'
+- extendedWaitUntil:
+    visible: 'Hello from Maestro!'
+    timeout: 5000

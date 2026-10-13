@@ -1,0 +1,507 @@
+{
+  "common": {
+    "download": "Download",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "appStore": "App Store",
+    "playStore": "Google Play",
+    "free": "Free",
+    "safe": "Safe"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "nav": {
+    "features": "Features",
+    "about": "About",
+    "safety": "Safety",
+    "support": "Support",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Every Pet Deserves a Best Friend",
+    "subtitle": "Connect with pet owners nearby. Match, chat, and arrange playdates. Your furry friend will thank you!",
+    "downloadApp": "Download the App"
+  },
+  "trust": {
+    "users": "Happy Pet Owners",
+    "rating": "App Store Rating",
+    "coverage": "Cities Covered"
+  },
+  "features": {
+    "title": "Everything your pet needs to thrive socially",
+    "subtitle": "Patty is built around making pet socialization easy, safe, and fun.",
+    "swipe": {
+      "title": "Swipe to Match",
+      "description": "Discover local pets with a familiar swipe interface. Filter by species, breed, and proximity."
+    },
+    "location": {
+      "title": "Location-based Discovery",
+      "description": "Find pets in your neighborhood. Set your distance and let Patty show you the closest friends."
+    },
+    "chat": {
+      "title": "Real-time Chat",
+      "description": "Once matched, chat instantly with typing indicators, read receipts, and online presence."
+    },
+    "verified": {
+      "title": "Verified Profiles",
+      "description": "Email-verified accounts and optional phone verification give you confidence in who you're meeting."
+    }
+  },
+  "featuresPage": {
+    "title": "Powerful Features for Pet Lovers",
+    "subtitle": "Discover everything Patty has to offer for you and your furry friends.",
+    "coreFeatures": "Core Features",
+    "smartMatching": {
+      "title": "Smart Matching Algorithm",
+      "description": "Our intelligent system learns your preferences and suggests compatible playmates.",
+      "point1": "Filter by species, breed, and age",
+      "point2": "Distance-based discovery",
+      "point3": "Learns from your preferences over time"
+    },
+    "proximity": {
+      "title": "Proximity-Based Discovery",
+      "description": "Find pets near you without revealing your exact location.",
+      "point1": "Adjustable distance radius",
+      "point2": "Privacy-focused location sharing",
+      "point3": "See approximate distance only"
+    },
+    "realTime": {
+      "title": "Real-Time Communication",
+      "description": "Connect instantly with other pet owners through our robust chat system.",
+      "point1": "Typing indicators and read receipts",
+      "point2": "Online presence tracking",
+      "point3": "Push notifications for new messages"
+    },
+    "petProfiles": {
+      "title": "Detailed Pet Profiles",
+      "description": "Create beautiful profiles for each of your pets with photos and preferences.",
+      "point1": "Multiple photos per pet",
+      "point2": "Breed and personality details",
+      "point3": "Activity level and play style"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "step1": {
+      "title": "Sign Up",
+      "description": "Create your profile and add your pet"
+    },
+    "step2": {
+      "title": "Discover",
+      "description": "Find and match with nearby pets"
+    },
+    "step3": {
+      "title": "Meet Up",
+      "description": "Arrange a playdate and connect"
+    }
+  },
+  "pets": {
+    "title": "Dogs & Cats",
+    "subtitle": "Playtime buddies for dogs and cats on Patty!",
+    "dog": "Dog",
+    "cat": "Cat",
+    "dogBreeds": "Golden Retriever, Bulldog, Beagle...",
+    "catBreeds": "Persian, British Shorthair, Siamese...",
+    "moreComing": "More species coming soon!"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Is Patty safe?",
+    "a1": "Absolutely! All Patty accounts require email verification. You can also add optional phone verification for extra security. Plus, you can delete your profile anytime.",
+    "q2": "Is Patty free?",
+    "a2": "Yes! All core features are completely free. Matching, messaging, and discovery are unlimited.",
+    "q3": "What pets can I add?",
+    "a3": "You can add dogs and cats! Each pet gets their own profile with photos and details.",
+    "q4": "How do I match?",
+    "a4": "After creating your profile and adding your pet, start swiping through nearby pets. When you both like each other - it's a match!",
+    "q5": "Can I add multiple pets?",
+    "a5": "Yes! Add as many dogs and cats as you have. Each pet gets their own profile with photos, bio, and preferences.",
+    "q6": "Is my location visible?",
+    "a6": "Only your approximate distance is shown (e.g., '2 km away'). Your exact address is never shared unless you choose to share it in chat.",
+    "stillHaveQuestions": "Still have questions?",
+    "contactUs": "Contact us"
+  },
+  "cta": {
+    "title": "Ready to find your pet's new best friend?",
+    "subtitle": "Join thousands of pet owners already using Patty to connect their beloved companions.",
+    "socialProof": "Join pet lovers everywhere"
+  },
+  "footer": {
+    "tagline": "Connecting pet lovers for playdates and friendship.",
+    "product": "Product",
+    "features": "Features",
+    "safety": "Safety",
+    "supportLink": "Support",
+    "company": "Company",
+    "about": "About",
+    "blog": "Blog",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "copyright": "© {year} Patty. All rights reserved."
+  },
+  "about": {
+    "title": "About Patty",
+    "subtitle": "Building a community where every pet can find their perfect playmate.",
+    "mission": {
+      "title": "Our Mission",
+      "content": "At Patty, we believe every pet deserves companionship, play, and friendship. Our mission is to connect pet owners in their local communities, making it easy to arrange playdates and build lasting friendships for both pets and their humans."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Patty was born from a simple observation: our pets are happier when they have friends to play with. As pet owners ourselves, we struggled to find compatible playmates for our furry companions. Dog parks were unpredictable, and social media groups were disorganized.",
+      "paragraph2": "We envisioned an app that would make finding pet playdates as easy as swiping right. A platform built on trust, safety, and genuine connection. That's how Patty came to be.",
+      "paragraph3": "Today, Patty is growing into a vibrant community of pet lovers who share our belief that every pet deserves a best friend."
+    },
+    "values": {
+      "title": "Our Values",
+      "community": {
+        "title": "Community First",
+        "description": "We build for pet lovers, with pet lovers. Every feature is designed to strengthen connections."
+      },
+      "safety": {
+        "title": "Safety & Trust",
+        "description": "Your safety is paramount. We verify profiles and provide tools to ensure secure meetups."
+      },
+      "joy": {
+        "title": "Joy & Fun",
+        "description": "Pets bring us happiness, and so should Patty. We keep the experience delightful and engaging."
+      },
+      "inclusion": {
+        "title": "Inclusion",
+        "description": "Every pet and owner is welcome. We celebrate the diversity of our community."
+      }
+    }
+  },
+  "safety": {
+    "title": "Your Safety is Our Priority",
+    "subtitle": "Learn how Patty protects you and your pet while you connect with others.",
+    "verification": {
+      "title": "Verified Profiles",
+      "description": "Every account requires email verification, with optional phone verification for added trust. Look for the verified badge on profiles."
+    },
+    "location": {
+      "title": "Location Privacy",
+      "description": "Your exact location is never shared. Other users only see approximate distance (e.g., '2 km away')."
+    },
+    "control": {
+      "title": "Full Control",
+      "description": "You decide what information to share. Unmatch or block users at any time from within the chat."
+    },
+    "reporting": {
+      "title": "Easy Reporting",
+      "description": "Report inappropriate behavior with one tap. Our team reviews all reports within 24 hours."
+    },
+    "moderation": {
+      "title": "Active Moderation",
+      "description": "Our team actively monitors for suspicious activity and takes swift action against violations."
+    },
+    "guidelines": {
+      "title": "Community Guidelines",
+      "description": "Clear rules ensure a positive experience for everyone. Violations result in account suspension."
+    },
+    "tips": {
+      "title": "Safety Tips for Playdates",
+      "point1": "Always meet in public places for first playdates, such as parks or pet-friendly areas.",
+      "point2": "Let a friend or family member know where you're going and who you're meeting.",
+      "point3": "Trust your instincts. If something feels off, it's okay to cancel or leave.",
+      "point4": "Keep the first meeting short and observe how the pets interact.",
+      "point5": "Exchange contact information and verify details before meeting in person."
+    },
+    "commitment": "Have safety concerns? Reach out to our team:"
+  },
+  "support": {
+    "title": "Support Center",
+    "subtitle": "We're here to help. Find answers or get in touch with our team.",
+    "quickLinks": {
+      "faq": {
+        "title": "FAQ",
+        "description": "Find quick answers to common questions."
+      },
+      "chat": {
+        "title": "Email Us",
+        "description": "Send us a message anytime."
+      },
+      "email": {
+        "title": "Direct Support",
+        "description": "support@patty.app"
+      }
+    },
+    "contact": {
+      "title": "Send Us a Message"
+    },
+    "response": {
+      "title": "What to Expect",
+      "content": "Our support team is committed to helping you as quickly as possible.",
+      "point1": "Response time: Within 24 hours on business days",
+      "point2": "Priority support for safety-related issues",
+      "point3": "Follow-up updates for complex cases"
+    },
+    "tips": {
+      "title": "For Faster Support",
+      "point1": "Include your account email address",
+      "point2": "Describe the issue in detail",
+      "point3": "Attach screenshots if relevant"
+    },
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "issueType": "Issue Type",
+      "issueTypes": {
+        "account": "Account Issues",
+        "matching": "Matching & Discovery",
+        "chat": "Chat & Messaging",
+        "safety": "Safety Concern",
+        "technical": "Technical Problem",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Describe your issue or question...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message Sent!",
+      "successMessage": "We've received your message and will get back to you within 24 hours."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": {
+      "title": "Introduction",
+      "content": "At Patty, we take your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information when you use our app."
+    },
+    "dataCollection": {
+      "title": "Data We Collect",
+      "intro": "We collect information you provide directly and data that helps us improve your experience:",
+      "account": {
+        "title": "Account Information",
+        "content": "Name, email address, phone number (optional), and profile details you choose to share."
+      },
+      "pet": {
+        "title": "Pet Profiles",
+        "content": "Photos, names, species, breed, age, and descriptions of your pets."
+      },
+      "location": {
+        "title": "Location Data",
+        "content": "Approximate location to show you nearby pets and users. Exact location is never stored or shared."
+      },
+      "usage": {
+        "title": "Usage Data",
+        "content": "How you interact with the app, including matches, messages, and feature usage."
+      }
+    },
+    "locationData": {
+      "title": "Location Data",
+      "content": "Your privacy is important to us. Here's how we handle location information:",
+      "point1": "We only collect approximate location (city/district level)",
+      "point2": "Your exact address is never visible to other users",
+      "point3": "Distance shown to others is approximate (e.g., '2 km away')",
+      "point4": "You can disable location services in your device settings"
+    },
+    "dataUse": {
+      "title": "How We Use Your Data",
+      "intro": "We use the information we collect to:",
+      "point1": "Provide and improve our matching and discovery features",
+      "point2": "Enable real-time chat and notifications",
+      "point3": "Ensure platform safety and prevent abuse",
+      "point4": "Communicate with you about your account"
+    },
+    "dataSharing": {
+      "title": "Data Sharing",
+      "content": "We do not sell your personal information. We may share data with:",
+      "point1": "Service providers who help us operate the app",
+      "point2": "Legal authorities when required by law",
+      "point3": "Other users (only the information you choose to share on your profile)"
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "We retain your information while your account is active. You can request deletion of your account and data at any time through the app or by contacting us."
+    },
+    "yourRights": {
+      "title": "Your Rights",
+      "intro": "Depending on your location, you may have the following rights:",
+      "point1": "Access your personal data",
+      "point2": "Correct inaccurate data",
+      "point3": "Delete your data",
+      "point4": "Object to processing",
+      "point5": "Data portability"
+    },
+    "security": {
+      "title": "Security",
+      "content": "We implement industry-standard security measures to protect your data, including encryption, secure servers, and regular security audits."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "content": "Patty is not intended for users under 18 years of age. We do not knowingly collect information from children."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time. We will notify you of any significant changes through the app or via email."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "If you have questions about this Privacy Policy, please contact us at privacy@patty.app."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": {
+      "title": "Introduction",
+      "content": "Welcome to Patty. By using our app, you agree to these Terms of Service. Please read them carefully."
+    },
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By creating an account and using Patty, you agree to be bound by these Terms of Service and our Privacy Policy."
+    },
+    "account": {
+      "title": "Account Responsibilities",
+      "content": "You are responsible for:",
+      "point1": "Providing accurate and truthful information",
+      "point2": "Keeping your password secure",
+      "point3": "All activity that occurs under your account",
+      "point4": "Notifying us of any unauthorized use"
+    },
+    "conduct": {
+      "title": "User Conduct",
+      "intro": "You agree not to:",
+      "point1": "Harass, abuse, or harm other users",
+      "point2": "Share inappropriate or offensive content",
+      "point3": "Impersonate others or create fake profiles",
+      "point4": "Use the app for any illegal purposes",
+      "point5": "Attempt to bypass security measures",
+      "point6": "Spam or send unsolicited messages"
+    },
+    "content": {
+      "title": "Content Guidelines",
+      "ownership": "You own the content you post on Patty. By posting, you grant us a license to display and distribute your content within the app.",
+      "license": "You represent that you have the right to post the content you share and that it does not violate any laws or third-party rights."
+    },
+    "intellectual": {
+      "title": "Intellectual Property",
+      "content": "Patty and its original content, features, and functionality are owned by us and are protected by international copyright, trademark, and other laws."
+    },
+    "safety": {
+      "title": "Safety",
+      "content": "Your safety is important to us. When meeting other users:",
+      "point1": "Always meet in public places",
+      "point2": "Inform someone you trust about your plans",
+      "point3": "Report any concerning behavior to us immediately"
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "content": "Patty is not liable for any interactions between users or for any injuries, losses, or damages arising from user meetings or interactions."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "We may suspend or terminate your account at any time for violations of these Terms or for any other reason at our discretion."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "content": "We reserve the right to modify these Terms at any time. Continued use of the app after changes constitutes acceptance of the new Terms."
+    },
+    "governing": {
+      "title": "Governing Law",
+      "content": "These Terms shall be governed by and construed in accordance with the laws of Turkey, without regard to its conflict of law provisions."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "For questions about these Terms, please contact us at legal@patty.app."
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Pet tips, stories, and updates from the Patty team.",
+    "notFound": "Post not found",
+    "backToBlog": "Back to Blog",
+    "categories": {
+      "all": "All",
+      "tips": "Tips",
+      "updates": "Updates",
+      "news": "News"
+    },
+    "posts": {
+      "safe-pet-playdates": {
+        "title": "5 Tips for a Safe First Pet Playdate",
+        "excerpt": "Meeting another pet owner for the first time? Here's how to ensure a safe and fun experience for everyone.",
+        "date": "January 10, 2025",
+        "category": "Tips",
+        "content": {
+          "intro": "Meeting another pet owner through Patty is exciting! Here are our top tips to ensure a safe and enjoyable first playdate.",
+          "tip1Title": "1. Choose a neutral location",
+          "tip1Content": "Meet at a public park or designated dog park rather than at someone's home. This helps both pets feel more comfortable and reduces territorial behavior.",
+          "tip2Title": "2. Keep the first meeting short",
+          "tip2Content": "A 20-30 minute playdate is perfect for the first meeting. This gives you time to see how the pets interact without overwhelming them.",
+          "tip3Title": "3. Bring water and bowls",
+          "tip3Content": "Playing is thirsty work! Having water available keeps both pets hydrated and happy.",
+          "tip4Title": "4. Watch for body language",
+          "tip4Content": "Learn to read your pet's signals. Loose, wiggly bodies mean they're having fun. Stiff postures or tucked tails may indicate stress.",
+          "tip5Title": "5. Exchange contact information",
+          "tip5Content": "After a successful playdate, stay in touch! You might have found a perfect match for regular meetups.",
+          "outro": "Have fun and stay safe out there!"
+        }
+      },
+      "matching-algorithm": {
+        "title": "How Patty's Matching Algorithm Works",
+        "excerpt": "Discover the technology behind finding the perfect playmate for your furry friend.",
+        "date": "January 5, 2025",
+        "category": "Updates",
+        "content": {
+          "intro": "At Patty, we believe finding the right playmate for your pet should be both fun and effective. Here's a peek behind the curtain at how our matching system works.",
+          "section1Title": "Location-Based Discovery",
+          "section1Content": "We use your approximate location to show you pets within your preferred distance. This ensures playdates are convenient for both parties.",
+          "section2Title": "Species and Breed Matching",
+          "section2Content": "Our algorithm considers pet species (dogs with dogs, cats with cats) and can filter by breed preferences you set.",
+          "section3Title": "Mutual Interest",
+          "section3Content": "Like any good matchmaking, both parties need to be interested. Our swipe system ensures mutual consent before connecting owners.",
+          "section4Title": "Activity Level Compatibility",
+          "section4Content": "We factor in energy levels and play styles to suggest compatible playmates.",
+          "section5Title": "Continuous Learning",
+          "section5Content": "The more you use Patty, the better our recommendations become as we learn your preferences."
+        }
+      },
+      "introducing-patty": {
+        "title": "Introducing Patty: A New Way to Connect Pet Lovers",
+        "excerpt": "We're excited to launch Patty, the app that brings pet owners together for playdates and friendship.",
+        "date": "December 20, 2024",
+        "category": "News",
+        "content": {
+          "intro": "We're thrilled to announce the launch of Patty, the app designed to connect pet owners for playdates, friendship, and community.",
+          "section1Title": "The Problem We're Solving",
+          "section1Content": "As pet owners ourselves, we know how challenging it can be to find playmates for our furry friends. Local dog parks can be hit or miss, and arranging meetups through social media is cumbersome.",
+          "section2Title": "Our Solution",
+          "section2Content": "Patty brings the familiar swipe-to-match interface to pet socialization. Create a profile for you and your pet, discover nearby pet owners, and connect with those who share your love for animals.",
+          "section3Title": "What Makes Patty Different",
+          "section3Content": "Built-in verification system, real-time chat, location-based discovery, and a focus on safety and community guidelines.",
+          "section4Title": "Join Our Community",
+          "section4Content": "Download Patty today and start finding playmates for your pets. Every pet deserves a best friend!"
+        }
+      },
+      "pet-socialization-benefits": {
+        "title": "Why Socialization Matters for Your Pet",
+        "excerpt": "Regular interaction with other animals can improve your pet's behavior, health, and happiness.",
+        "date": "December 15, 2024",
+        "category": "Tips",
+        "content": {
+          "intro": "Just like humans, pets benefit greatly from regular social interaction. Here's why socialization should be a priority for every pet owner.",
+          "section1Title": "Behavioral Benefits",
+          "section1Content": "Well-socialized pets are typically calmer, less anxious, and better behaved in various situations. They learn to read social cues and respond appropriately.",
+          "section2Title": "Physical Health",
+          "section2Content": "Active play with other pets provides excellent exercise, helping maintain a healthy weight and improving cardiovascular health.",
+          "section3Title": "Mental Stimulation",
+          "section3Content": "Interacting with new animals and environments keeps your pet's mind sharp and prevents boredom-related behavioral issues.",
+          "section4Title": "Building Confidence",
+          "section4Content": "Regular positive interactions help shy or anxious pets build confidence and become more comfortable in new situations.",
+          "section5Title": "Starting with Patty",
+          "section5Content": "Use Patty to find compatible playmates and schedule regular playdates. Your pet will thank you!"
+        }
+      }
+    }
+  },
+  "legal": {
+    "lastUpdated": "Last updated: {date}"
+  }
+}

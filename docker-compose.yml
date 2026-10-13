@@ -1,0 +1,22 @@
+services:
+  db:
+    image: postgis/postgis:16-3.5
+    container_name: patty-db
+    environment:
+      POSTGRES_USER: pati
+      POSTGRES_PASSWORD: pati
+      POSTGRES_DB: pati
+    ports:
+      - "5432:5432"
+    volumes:
+      - patty-data:/var/lib/postgresql/data
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  redis:
+    image: redis:7-alpine
+    container_name: patty-redis
+    ports:
+      - "6379:6379"
+
+volumes:
+  patty-data:

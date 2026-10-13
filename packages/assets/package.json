@@ -1,0 +1,17 @@
+{
+  "name": "@patty/assets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./logo/*": "./src/logo/*",
+    "./generated/*": "./generated/*"
+  },
+  "scripts": {
+    "build": "bun scripts/generate-raster.ts"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "bun-types": "^1.3.10"
+  }
+}

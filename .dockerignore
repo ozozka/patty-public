@@ -1,0 +1,16 @@
+node_modules
+.git
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.jks
+**/*.keystore
+**/*.p8
+**/*.p12
+**/*.mobileprovision
+.expo
+dist
+coverage
+.claude
+.turbo

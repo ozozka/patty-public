@@ -1,0 +1,8 @@
+node_modules/
+.next/
+dist/
+coverage/
+pnpm-lock.yaml
+yarn.lock
+bun.lockb
+bun.lock
